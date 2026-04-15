@@ -1,0 +1,61 @@
+# Marugoto FlashCard｜まるごと 單字閃卡（中→日）
+
+A browser-based vocabulary flashcard app for **Marugoto Japanese learning materials**, designed for **Chinese-to-Japanese** study.
+
+Built with **HTML, CSS, and JavaScript**, this project provides a lesson-based flashcard interface for reviewing Japanese vocabulary from different Marugoto course books.
+
+## Live Demo
+
+[Try the flashcards](https://celine10811020.github.io/Marugoto_FlashCard_Anti/)
+
+## About the Project
+
+Marugoto FlashCard is a lightweight web app for reviewing vocabulary from the [**Marugoto** Japanese textbook](https://marugoto.jpf.go.jp/en/) series.
+
+The app organizes vocabulary by course and lesson, allowing users to practice one card at a time in a simple browser-based interface.
+
+This project focuses on **Japanese vocabulary learning**, with each card supporting:
+
+- Chinese meaning reading on the front
+- Kanji or Japanese on the back
+
+## Supported Levels / Books
+
+The project currently includes vocabulary sets from:
+
+- 入門 A1 かつどう
+- 入門 A1 りかい
+- 初級1 A2 かつどう
+- 初級1 A2 りかい
+- 初級2 A2 かつどう
+- 初級2 A2 りかい
+- 初中級 A2/B1
+
+## Features
+
+- Marugoto-based vocabulary review
+- Lesson selection by textbook set
+- Front side shows **Chinese meaning**
+- Click the **left half** of the card to reveal **kanji**
+- Click the **right half** of the card to reveal **Japanese reading**
+- Mark cards as **remembered**
+- Move to the **next card**
+- Keyboard shortcuts for faster practice
+- Browser-based interface with no installation required
+
+## Keyboard Shortcuts
+
+- `←` : reveal kanji
+- `→` : reveal Japanese
+- `Space` : next card
+- `Enter` : mark as remembered
+
+## Project Structure
+
+```text
+Marugoto_FlashCard/
+├── Data/               # Data files
+├── index.html          # Main page
+├── main.js             # Flashcard logic and data loading
+├── style.css           # UI styling
+└── HTTP server.txt     # Notes for local server setup
